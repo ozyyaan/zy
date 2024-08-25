@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozyhan's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="icon" href="sources/assets/cover.png" type="image/png">
+
+</head>
+
+
+
+<body>
+
+    <!-- =============================================================================================================================== -->
+    <!-- =================================================HERO SECTION================================================================== -->
+    <section id="hero"
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h3>Hello World! I'am</h3>
+            <h1>Muhammad Rozyhan Ramadhan</h1>
+            <h3>Enthusiast In...</h3>
+            <h4 id="dynamic-text"></h4>
+
+            <a href="#home" class="btn btn-lg mt-5" onClick="enableScroll()">About Me</a>
+        </main>
+    </section>
+
+    <!-- =================================================HERO SECTION================================================================== -->
+    <!-- =============================================================================================================================== -->
+
+    <nav class="navbar navbar-expand-lg bg-transpaent sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Rozyhan.</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sources/pages/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sources/pages/certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sources/pages/achievements.html">Achievements</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="home">
+        <div class="container" data-aos="fade">
+            <div class="row align-items-center">
+                <!-- Kolom untuk judul dan deskripsi -->
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello! I’m Muhammad Rozyhan, an undergraduate Informatics Management student at Politeknik
+                        Negeri
+                        Medan with a GPA of 3.53. I have a strong foundation in Web Development, focusing on Front-End
+                        and Full Stack Development, with a keen interest in Technologies development.
+                        <br><br>
+                        Throughout my academic journey, I’ve engaged in various projects, earning My passion for
+                        technology drives me to
+                        continually learn and innovate, aiming to contribute effectively in both academic and
+                        professional environments.
+                    </p>
+
+                    <a href="./data/Cv - Muhammad Rozyhan Ramadhan.pdf" download="Muhammad_Rozyhan_Cv.pdf"
+                        class="download-btn">
+                        <button class="animated-button">
+                            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                </path>
+                            </svg>
+                            <span class="text">Download CV</span>
+                            <span class="circle"></span>
+                            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </a>
+
+
+                </div>
+                <!-- Kolom untuk foto diri -->
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="sources/assets/self-pict.png" alt="Muhammad Rozyhan Ramadhan"
+                        class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 data-aos="fade">Education</h2>
+            <div class="education-entry" data-aos="fade-right">
+                <!-- University 1 -->
+                <div class="education-item">
+                    <div class="education-icon">
+                        <img src="sources/assets/logo-polmed.png" alt="Politeknik Negeri Medan" class="img-fluid">
+                    </div>
+                    <div class="education-content">
+                        <h3>Politeknik Negeri Medan</h3>
+                        <p>Aug 2022 - Present</p>
+                        <p>GPA: 3.53</p>
+                    </div>
+                </div>
+                <!-- University 2 -->
+                <div class="education-item">
+                    <div class="education-icon">
+                        <img src="sources/assets/logo-ui.png" alt="Universitas Indonesia" class="img-fluid">
+                    </div>
+                    <div class="education-content">
+                        <h3>University of Indonesia</h3>
+                        <p>Feb 2024 - Jun 2024</p>
+                        <p><i>Pertukaran Mahasiswa Merdeka 4</i></p>
+                    </div>
+                </div>
+                <!-- University 3 -->
+                <div class="education-item">
+                    <div class="education-icon">
+                        <img src="sources/assets/logo-ma.png" alt="MAN 1 Medan" class="img-fluid">
+                    </div>
+                    <div class="education-content">
+                        <h3>Madrasah Aliyah Negeri 1 Medan</h3>
+                        <p>Jun 2019 - Jul 2022</p>
+                        <p>Final Score : 89.89</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences" class="experiences">
+        <div class="container" data-aos="fade">
+            <h2 data-aos="fade">Experiences</h2>
+            <div class="experience-item">
+                <div class="experience-content left">
+                    <h3>Logee</h3>
+                    <p>Hacker - Front End</p>
+                    <p>Aug 2024 - Present</p>
+                    <p>Participated as a front-end developer in the Digistar Class 2024 program by Telkom
+                        Indonesia, where I was tasked with developing vehicle tracking features for Logee
+                        Transportation, a leading logistics company.</p>
+                </div>
+                <div class="experience-icon">
+                    <img src="sources/assets/download.jpeg" alt="Logee" class="img-fluid">
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <img src="./sources/assets/OIP.jpeg" alt="Infinite Learning" class="img-fluid">
+                </div>
+                <div class="experience-content right">
+                    <h3>Infinite Learning</h3>
+                    <p>Web Development - Intern</p>
+                    <p>Feb 2024 - Jun 2024</p>
+                    <p>Focused on improving user experience by applying best practices in front-end development
+                        and ensuring intuitive and accessible web designs.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-content left">
+                    <h3>Kebab Bang Joe</h3>
+                    <p>Social Media Analyst</p>
+                    <p>Mar 2024 - Jun 2024</p>
+                    <p>As a Social Media Analyst, my team and I were responsible for managing the social media accounts
+                        of <i>UMKM</i>, focusing on increasing engagement and reach through effective content strategies
+                        and
+                        performance optimization.</p>
+                </div>
+                <div class="experience-icon">
+                    <img src="sources/assets/bangjoe.png" alt="Kebab Bang Joe" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="skills-heading" data-aos="fade">Skills</h2>
+
+        <div class="skills-container programming-languages" data-aos="fade">
+            <div class="skill-item">
+                <img src="./sources/assets/html-5.png" alt="HTML Icon">
+                <p>HTML</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/js.png" alt="JavaScript Icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/css-3.png" alt="CSS Icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/php.png" alt="PHP Icon">
+                <p>PHP</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/mysql.png" alt="SQL Icon">
+                <p>SQL</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/python.png" alt="Phyton Icon">
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/cpp.png" alt="CPP Icon">
+                <p>C++</p>
+            </div>
+        </div>
+
+        <div class="skills-container frameworks" data-aos="fade">
+            <div class="skill-item">
+                <img src="./sources/assets/bootstrap.png" alt="Bootstrap Icon">
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/react.png" alt="React Icon">
+                <p>React</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/Laravel.png" alt="Laravel Icon">
+                <p>Laravel</p>
+            </div>
+        </div>
+
+        <div class="skills-container tools" data-aos="fade">
+            <div class="skill-item">
+                <img src="./sources/assets/unity.png" alt="Unity Icon">
+                <p>Unity</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/figma.png" alt="Figma Icon">
+                <p>Figma</p>
+            </div>
+            <div class="skill-item">
+                <img src="./sources/assets/vscode.png" alt="VSCode Icon">
+                <p>VS Code</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact-me">
+        <h2 data-aos="fade">Contact Me</h2>
+        <form data-aos="fade-right" method="POST"
+            action="https://script.google.com/macros/s/AKfycbwfHbrxP4fp2AgJitoGV-wiVOJiDm1TxJOy4feR6eterzADZ-RZl5xZpOX_xhYYlk80/exec"
+            id="my-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-sections">
+            <div class="footer-links">
+                <h3>Sections</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <!-- Tambahkan lebih banyak link sesuai kebutuhan -->
+                </ul>
+            </div>
+
+            <div class="footer-pages">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="./sources/pages/projects.html">Projects</a></li>
+                    <li><a href="./sources/pages/certifications.html">Certifications</a></li>
+                    <li><a href="./sources/pages/achievements.html">Achievements</a></li>
+                    <!-- Tambahkan lebih banyak link sesuai kebutuhan -->
+                </ul>
+            </div>
+
+            <div class="footer-social-media">
+                <a href="https://www.linkedin.com/in/rozyhan/"><img src="./sources/assets/linkedin.png"
+                        alt="LinkedIn"></a>
+                <a href="https://github.com/ozyyan"><img src="./sources/assets/github.png" alt="GitHub"></a>
+                <a href="mailto:muhammadrozyhan@gmail.com"><img src="./sources/assets/gmail.png" alt="Gmail"></a>
+                <!-- Tambahkan lebih banyak ikon media sosial sesuai kebutuhan -->
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2024 Muhammad Rozyhan. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        const rootElement = document.querySelector(":root");
+
+        function disableScroll() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function () {
+                window.scrollTo(scrollLeft, scrollTop);
+            };
+
+            rootElement.style.scrollBehavior = 'auto';
+        }
+
+        function enableScroll() {
+            window.onscroll = function () {}
+            rootElement.style.scrollBehavior = 'smooth';
+            localStorage.setItem('opened', 'true');
+        }
+
+
+        if (!localStorage.getItem('opened')) {
+            disableScroll();
+        }
+    </script>
+
+    <script>
+        document.getElementById('my-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Mencegah submit default untuk menghindari refresh halaman
+
+            // Menampilkan alert pesan terkirim
+            alert('Pesan Anda telah terkirim! email balasan segera dikirim');
+
+            // Mengirimkan form setelah menampilkan alert
+            this.submit();
+        });
+    </script>
+
+
+</body>
+
+</html>
